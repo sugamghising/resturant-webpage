@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.first{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ul li{
+    display:block;
+    background:linear-gradient(90deg,red,blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 300ms ease ;
+}
+nav ul li:hover{
+    background-size: 100% 3px;
+    transition: .5s;
+
+}
+.hero{
+
+    background-image:url(image/kitchen.jpg);
+    padding-top:290px;
+    padding-bottom: 290px;
+    background-size: cover;
+}
+.heroi{
+    padding-left: 50px;
+}
+.topic{
+    padding-left: 45px;
+}
+.topic1{
+    font-size: 30px;
+    color:brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.white{
+    color: white;
+}
+.home{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+.home img{
+    max-height: 300px;
+    width: 100%;
+    height:auto;
+}
+.element{
+    padding-left: 20px;
+}
+.menu{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li{
+    display: list-item;
+    list-style: none;
+    text-decoration: none;
+    
+    
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.menu ul li:hover{
+    color: antiquewhite;    
+}
+.point{
+    display: none;
+}
+.point.active-tab{
+    display: block;
+}
